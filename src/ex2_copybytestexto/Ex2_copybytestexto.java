@@ -49,20 +49,20 @@ public class Ex2_copybytestexto {
 
             //este método read lee byte a byte
             //también se podría hacer con un Iterator
-            int cont = 0;
+            int valByte = 0;
 
-            while (cont != -1) {
+            while (valByte != -1) {
 
                 try {
-                    cont = leer1.read();
-                    listaBytes.add(cont);
+                    valByte = leer1.read();
+                    listaBytes.add(valByte);
 
                 } catch (IOException ex) {
                     Logger.getLogger(Ex2_copybytestexto.class.getName()).log(Level.SEVERE, null, ex);
                 }
 
             }
-
+            //comprobación
             System.out.println(listaBytes);
 
         } catch (FileNotFoundException ex) {
