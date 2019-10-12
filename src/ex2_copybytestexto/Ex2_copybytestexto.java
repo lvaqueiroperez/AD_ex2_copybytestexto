@@ -40,10 +40,10 @@ public class Ex2_copybytestexto {
         //las variables e instanciar los objetos dentro !!!
         //Podemos hacer el código más simple si solo añadimos un único
         //try-catch con excepcion "Exception" para que las cubra todas????
+        //o incluso con un throws??
         FileInputStream leer1 = null;
 
         try {
-            //solo deja usar el objeto en el try???
             //read identifica los saltos de línea o espacios como bytes!!!
             leer1 = new FileInputStream("/home/oracle/Desktop/ex2/texto1.txt");
 
